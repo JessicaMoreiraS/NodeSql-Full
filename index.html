@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node com Sql</title>
+</head>
+<body>
+    <div id="tabela">oi</div>
+    <script>
+        function somar(a,b){
+            return a+b;
+        }
+        function testeSoma(){
+            const resultado1 = somar(2,3);
+            if(resultado1 === 5){
+                console.log('Teste 1 Passou');
+            }else{
+                console.log('Teste 1 Falhou');
+            }
+            const resultado2 = somar(-1,1);
+            if(resultado2 === 0){
+                console.log("Teste 2 Passou");
+            }else{
+                console.log("Teste 2 Falhou")
+            }
+        }
+
+        testeSoma();
+    </script>
+</body>
+</html>
